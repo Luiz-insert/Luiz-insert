@@ -1,0 +1,27 @@
+body {
+    background-color: #161B21;
+    color: #CBCFD3;
+    font-family: monospace;
+    font-weight:lighter;
+    font-size:large;
+}
+
+header #titulo-principal {
+    font-size:xxx-large;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+nav button {
+    background-color: #CBCFD3;
+    border-radius: 0em;
+    box-shadow: none;
+    border-style: none;
+
+    
+}
+nav button :hover{
+    color: red;
+    
+}
