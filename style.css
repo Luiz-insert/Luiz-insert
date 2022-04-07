@@ -1,3 +1,8 @@
+
+head {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #161B21;
     color: #CBCFD3;
@@ -12,9 +17,19 @@ h3 {
 }
 
 div {
-    display: flex;
-    justify-content: center;
+        display: grid;
+        justify-content: stretch;
+
 }
+.botao-nav
+    {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+      }
+
+
 header #titulo-principal {
     font-size:xxx-large;
     font-weight: bold;
@@ -32,27 +47,46 @@ header {
 
 }
 
-nav button {
-    background-color: #CBCFD3;
-    border-radius: 0;
-    border-style: none;
-    box-shadow: none;
-    border-style: none;
-
-}
-
-nav button a {
-    text-decoration: none;
+button {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 nav button :hover{
     color: #CBCFD3;
     text-decoration: none;
     background-color: #161B21;
-    transition: 0.5s;
+    padding-left: 0;
+    padding-right: 0;
     
     
 }
+
+p.botao-nav {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+}
+
+nav button {
+    background-color: #CBCFD3;
+    border-radius: 0;
+    border-style: none;
+    box-shadow: none;
+    border-style: none;
+    transition: 0.5s;
+
+}
+
+nav button a {
+    text-decoration: none;
+
+    transition: 1s;
+}
+
+
+
 
 main {
     display: grid;
@@ -62,4 +96,18 @@ main {
 footer {
     display: grid;
     place-items: center;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #33425F;
+    border-radius: 0em;
+}
+
+::-webkit-scrollbar-thumb {
+    background:#CBCFD3;
+    border-radius: 0em;
 }
