@@ -6,22 +6,60 @@ body {
     font-size:large;
 }
 
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
 header #titulo-principal {
     font-size:xxx-large;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 0;
+    background-color: #1a3e8b52;
+    display: grid;
+    place-items: center;
+ 
+}
+
+header {
+    background-color: #cbcfd33a;
+    
+
 }
 
 nav button {
     background-color: #CBCFD3;
-    border-radius: 0em;
+    border-radius: 0;
+    border-style: none;
     box-shadow: none;
     border-style: none;
 
+}
+
+nav button a {
+    text-decoration: none;
+}
+
+nav button :hover{
+    color: #CBCFD3;
+    text-decoration: none;
+    background-color: #161B21;
+    transition: 0.5s;
+    
     
 }
-nav button :hover{
-    color: red;
-    
+
+main {
+    display: grid;
+    place-items: center;
+}
+
+footer {
+    display: grid;
+    place-items: center;
 }
