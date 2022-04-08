@@ -1,7 +1,11 @@
 
 head {
+
+    /*Deixa a barra de rolagem de forma suave*/
     scroll-behavior: smooth;
 }
+
+
 
 body {
     background-color: #161B21;
@@ -11,24 +15,10 @@ body {
     font-size:large;
 }
 
-h3 {
-    display: flex;
-    justify-content: center;
+header {
+    background-color: #161B21;
+  
 }
-
-div {
-        display: grid;
-        justify-content: stretch;
-
-}
-.botao-nav
-    {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        padding-top: 13px;
-        padding-bottom: 13px;
-      }
-
 
 header #titulo-principal {
     font-size:xxx-large;
@@ -41,65 +31,82 @@ header #titulo-principal {
  
 }
 
-header {
-    background-color: #cbcfd33a;
-    
-
-}
-
-button {
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
-nav button :hover{
-    color: #CBCFD3;
-    text-decoration: none;
-    background-color: #161B21;
-    padding-left: 0;
-    padding-right: 0;
-    
-    
-}
-
-p.botao-nav {
-    padding-top: 0.8em;
-    padding-bottom: 0.8em;
-}
-
-nav button {
-    background-color: #CBCFD3;
-    border-radius: 0;
-    border-style: none;
-    box-shadow: none;
-    border-style: none;
-    transition: 0.5s;
-
-}
-
-nav button a {
-    text-decoration: none;
-
-    transition: 1s;
-}
-
-
-
-
 main {
     display: grid;
-    place-items: center;
 }
 
-footer {
+.faixa1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin: bottom 0px;
+}
+
+.titulo {
     display: grid;
-    place-items: center;
+    justify-content: center;
 }
 
+.botao
+    {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        display: grid;
+        justify-content: center;
+        background-color:#CBCFD3;
+      }
+
+.s, .divspan, footer {
+    display: grid;
+    justify-content: center;
+}
+
+td {
+    background-color: #CBCFD3;
+    color:#161B21;
+    justify-content: stretch;
+    height: 1vh;
+    width: 1vh;
+    
+}
+
+img {
+    position:absolute;
+    justify-content: center;
+}
+
+a, a:visited {
+    color:#33425F;
+    text-decoration: none;
+    transition: 1.5s;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+a:hover {  
+    color: rgb(0, 255, 42);
+    background-color: #161B21;
+   
+}
+
+.alink {
+    display: grid;
+    justify-content: center;
+}
+
+.icons {
+    width: 2em;
+    height: 2em;
+    display:grid;
+    justify-content: center;
+}
+
+
+/*Estilização da barra de rolagem*/
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 1vh;
 }
 
 ::-webkit-scrollbar-track {
@@ -111,3 +118,21 @@ footer {
     background:#CBCFD3;
     border-radius: 0em;
 }
+
+#dados {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#version {
+    font-size: xx-small;
+    color: rgb(0, 255, 42);
+    display: flex;
+    justify-content: end;
+}
+
+
