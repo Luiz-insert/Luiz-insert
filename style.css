@@ -72,37 +72,19 @@ td {
     
 }
 
-img {
-    position:absolute;
-    justify-content: center;
-}
-
-a, a:visited {
+.a, .a:visited {
     color:#33425F;
     text-decoration: none;
-    transition: 1.5s;
+    transition: 1.0s;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
 
-a:hover {  
+.a:hover {  
     color: rgb(0, 255, 42);
     background-color: #161B21;
    
 }
-
-.alink {
-    display: grid;
-    justify-content: center;
-}
-
-.icons {
-    width: 2em;
-    height: 2em;
-    display:grid;
-    justify-content: center;
-}
-
 
 /*Estilização da barra de rolagem*/
 ::-webkit-scrollbar {
@@ -119,6 +101,7 @@ a:hover {
     border-radius: 0em;
 }
 
+/*Essa parte do codigo não é influenciada portanto segura*/
 #dados {
     display: flex;
     justify-content: center;
@@ -134,5 +117,52 @@ a:hover {
     display: flex;
     justify-content: end;
 }
+
+/*Estilização individual dos botoes do contato*/
+
+#linkedin :hover {
+    display: grid;
+    justify-content: center;
+    background-color: rgba(10, 102, 194, 0.300);
+}
+
+#github :hover {
+    display: grid;
+    justify-content: center;
+    background-color: rgba(107, 115, 124, 0.300);
+}
+
+#whatsapp :hover {
+    display: grid;
+    justify-content: center;
+    background-color: rgba(1, 230, 115, 0.300);
+}
+
+#instagram :hover {
+    display: grid;
+    justify-content: center;
+    background-color: rgba(239, 88, 101, 0.300);
+
+}
+
+/*Estilização conjunta dos botoes do contato*/
+
+.rede {
+    display: grid;
+    justify-content: center;
+    transition: 1s;
+}
+
+.icons, .icons :hover{
+
+    width: 2em;
+    height: 2em;
+    transition: 99999s;
+    background-color:inherit;
+    
+}
+
+
+
 
 
