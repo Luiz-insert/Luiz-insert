@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-     <meta charset="UTF--equiv="X-UA-Compatible" content="IE=edge">
+     <meta charset="UTF-8"> 
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="style.css">
      <link rel="shortcut icon" type="imagex/svg" href="svg/Insert.svg">
@@ -11,20 +12,23 @@
 
 <header>
 <nav>
-    <h2 id="titulo-principal">Luiz_Insert</h2>   
+    <div class="divnav">
+    <p class="a01"><button class="bnav">High Contrast +</button></p>
+    <h2 id="titulo1">Luiz_Insert</h2>  
+    <p class="a02"><button class="bnav">Mode Light/Dark</button></p> 
     <p><h3 class="faixa1">Bem vindo ao meu repositorio pessoal_</h3></p>
-    <div class="divbutton">
-        <a class="botao bnav1 a" href="index.html">Projetos em destaque</a>
-        <a class="botao bnav2 a" href="desenvolvimento.html">Projetos em desenvolvimento</a>
-        <a class="botao bnav3 a" href="finalizados.html">Projetos finalizados</a>
     </div>
-
 </nav>
+<div class="divbutton">
+    <a class="botao a" href="index.html">Projetos em destaque</a>
+    <a class="botao a" href="desenvolvimento.html">Projetos em desenvolvimento</a>
+    <a class="botao a" href="finalizados.html">Projetos finalizados</a>
+</div>
 </header>
 
 <main>
 
-<h3 class="titulo destaque">Destaque</h3>
+<h3 class="titulo2">Destaque</h3>
     <div class="divspan">
          <a class="s a" href="http://github.com/Luiz-insert/" target="_blank">Projeto1</a><br>
          <a class="s a" href="http://github.com/Luiz-insert/" target="_blank">Projeto2</a><br>
@@ -37,8 +41,7 @@
          <a class="s a" href="http://github.com/Luiz-insert/" target="_blank">Projeto9</a><br>
     </div>
 
-    <a class="botao main1 a" href="todos.html" target="_blank" >Mostre-me todos...</a>
-
+    <a  id="divTodos"class="botao main2 main1  a" href="todos.html" target="_blank" >Mostre-me todos...</a>
 
 <h3 class="titulo contato">Contato</h3>
     <table>
@@ -53,13 +56,25 @@
 
 </main>    
 <footer>
+
+    <div>
 <h3 class="titulo sobremim"> Um pouco sobre mim_</h3>
 <p id="dados">Luiz Gusttavo Teixeira braga<br>20/02/2004 (18)<br>MG-Ibirité</p>
 
 <p>Hoje aspirante em programação mas desde cedo muito atento e imerso em tecnologias, por hobby ou necessidade sempre fui muito presente no meio, criando, estudando e convivendo com problemas principalmente relacionado a manutenção de computadores, sempre me senti muito confiante em solucionar por conta própria discrepâncias do mesmo.</p>
 <p id="version">v0.5_12/04/22_under development</p>
+    </div>
+
 </footer>
 
 </body>
 
 </html>
+
+<script src="main.js"></script>
+
+
+
+
+<!--Codigo base 14/04/2022 18:46 sem bugs e funcional 
+    (ainda sem condiçoes para release)-->

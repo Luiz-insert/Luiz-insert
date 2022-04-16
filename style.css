@@ -1,6 +1,5 @@
 
 head {
-
     /*Deixa a barra de rolagem de forma suave*/
     scroll-behavior: smooth;
 }
@@ -20,31 +19,50 @@ header {
   
 }
 
-header #titulo-principal {
-    font-size:xxx-large;
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 0;
-    background-color: #1a3e8b52;
-    display: grid;
-    place-items: center;
- 
-}
-
 main {
     display: grid;
 }
 
-.faixa1 {
-    display: flex;
-    justify-content: center;
-    margin-top: 0px;
-    margin: bottom 0px;
+.divnav {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
 }
 
-.titulo {
+.a01, .a02 {
     display: grid;
-    justify-content: center;
+    justify-self: center;
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+#titulo1 {
+    font-size:  2em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #CBCFD3;
+    background-color:#161B21;
+    text-align: center;
+}
+
+.bnav {
+    height: 3em;
+    border-radius: 0px;
+    transition: 1.0s;
+    background-color:#CBCFD3;
+    font-family: monospace;
+    font-weight:lighter;
+    outline-style:none;
+    border: none;
+
+}
+
+
+.faixa1 {
+    
+    margin-top: 0;
+    margin: bottom 0;
+    text-align: center;
 }
 
 .botao
@@ -58,7 +76,18 @@ main {
         background-color:#CBCFD3;
       }
 
-.s, .divspan, footer {
+.main2 {
+        background-color: green;
+    }
+.main1 {
+    background-color: red;
+}
+
+
+.divbutton {        
+    display: grid;
+}
+.s, .divspan, .titulo2, footer {
     display: grid;
     justify-content: center;
 }
@@ -81,7 +110,7 @@ td {
     padding-bottom: 0.5em;
 }
 
-.a:hover {  
+.bnav:hover,.a:hover {  
     color: rgb(0, 255, 42);
     background-color: #161B21;
    
