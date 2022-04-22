@@ -1,4 +1,5 @@
 
+
 head {
     /*Deixa a barra de rolagem de forma suave*/
     scroll-behavior: smooth;
@@ -23,20 +24,13 @@ main {
     display: grid;
 }
 
-.divnav {
+#divnav {
     display: grid;
     grid-template-columns: 20% 60% 20%;
 }
 
-.a01, .a02 {
-    display: grid;
-    justify-self: center;
-    margin-top:0;
-    margin-bottom: 0;
-}
-
 #titulo1 {
-    font-size:  2em;
+    font-size:  6vh;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 0;
@@ -44,19 +38,25 @@ main {
     background-color:#161B21;
     text-align: center;
 }
+#titulo2, #titulo3, #titulo4{
+    text-align: center;
+}
+
 
 .bnav {
     height: 3em;
     border-radius: 0px;
     transition: 1.0s;
-    background-color:#CBCFD3;
+    background-color:#33425F;
+    color:rgba(187, 255, 0, 0.39);
     font-family: monospace;
     font-weight:lighter;
     outline-style:none;
-    border: none;
+    border:0;
+    width: 50%;
+    justify-self: center;
 
 }
-
 
 .faixa1 {
     
@@ -76,18 +76,12 @@ main {
         background-color:#CBCFD3;
       }
 
-.main2 {
-        background-color: green;
-    }
-.main1 {
-    background-color: red;
-}
 
 
 .divbutton {        
     display: grid;
 }
-.s, .divspan, .titulo2, footer {
+.s, .divspan, footer {
     display: grid;
     justify-content: center;
 }
@@ -177,6 +171,11 @@ td {
 
 /*Estilização conjunta dos botoes do contato*/
 
+.rede {
+    display: grid;
+    justify-content: center;
+    transition: 1s;
+}
 .rede {
     display: grid;
     justify-content: center;
