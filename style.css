@@ -3,6 +3,7 @@
 head {
     /*Deixa a barra de rolagem de forma suave*/
     scroll-behavior: smooth;
+    font-size: 0em;
 }
 
 
@@ -26,12 +27,42 @@ main {
 
 #divnav {
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 50% 50%;
+    height: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: sticky;
+    top: 0;
+}
+.bnav {
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+    background-color: #CBCFD3;
+    color: #33425F;
+    font-family: monospace;
+    font-weight:lighter;
+}  
+
+#navcab {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+
+}
+
+#divbutton {    
+    width: 100%;
+    display: grid;
+    grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
+    justify-content: stretch;
+    text-align: center;
 }
 
 #titulo1 {
-    font-size:  2em;
-    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+    font-size:  2.5rem;
+    font-weight: 800;
     margin-top: 0;
     margin-bottom: 0;
     color: #CBCFD3;
@@ -39,74 +70,86 @@ main {
     text-align: center;
 }
 #titulo2, #titulo3, #titulo4{
+    font-size: 1.3rem;
     text-align: center;
+    font-family: 'Inconsolata', monospace;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
-.bnav {
-    height: 3em;
-    border-radius: 0px;
-    transition: 1.0s;
-    background-color:#33425F;
-    color:rgba(187, 255, 0, 0.39);
-    font-family: monospace;
-    font-weight:lighter;
-    outline-style:none;
-    border:0;
-    width: 50%;
-    justify-self: center;
-
-}
-
-.faixa1 {
-    
+.faixa1 {    
     margin-top: 0;
-    margin: bottom 0;
+    margin-bottom: 0;
     text-align: center;
 }
 
-.botao
-    {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        padding-top: 1vh;
-        padding-bottom: 1vh;
-        display: grid;
-        justify-content: center;
+.botao {
+        display: flex;
         background-color:#CBCFD3;
-      }
+        text-align: center;
+        justify-content: center;
+        align-items: center;
 
-
-
-.divbutton {        
-    display: grid;
 }
-.s, .divspan, footer {
+
+   
+
+#divspan {
+    padding-bottom: 2em;
+    background: linear-gradient(#161B21, #33425f67);
+} 
+
+
+footer {
     display: grid;
     justify-content: center;
+    background-color: #33425f67;
+    text-align: center;
 }
 
-td {
-    background-color: #CBCFD3;
-    color:#161B21;
-    justify-content: stretch;
-    height: 1vh;
-    width: 1vh;
+.tablespan {
+    height: 100%;
+    width: 100%;  
+}
+
+.tdspan {
+    vertical-align: inherit;
+    text-align: center; 
+    height: 5rem;
     
 }
 
+.tdspan :hover{
+    background-color: #161B21;
+}
+
+.tdicon {
+    background-color: #CBCFD3;
+}
 
 .a, .a:visited {
     color:#33425F;
     text-decoration: none;
-    transition: 1.0s;
+    transition: 0.3s;
+}
+
+.b, .b:visited {
+    color:#33425F;
+    text-decoration: none;
+    transition: 0.3s;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
 
-.bnav:hover,.a:hover {  
+.b:hover {  
     color: rgb(0, 255, 42);
     background-color: #161B21;
    
+}
+
+.a:hover{  
+    color: #161B21;
+    background-color: #33425F;
 }
 
 /*Estilização da barra de rolagem*/
@@ -173,13 +216,10 @@ td {
 .rede {
     display: grid;
     justify-content: center;
-    transition: 1s;
+    transition: 0.5s;
+    line-height: 5.5em;
 }
-.rede {
-    display: grid;
-    justify-content: center;
-    transition: 1s;
-}
+
 
 .icons, .icons :hover{
 

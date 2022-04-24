@@ -1,0 +1,12 @@
+<nav id="divnav">
+    <button class="bnav"> <p class="bnav">Contraste</p>     </button>
+    <button class="bnav"> <p class="bnav">Alternar Tema</p> </button>
+</nav>
+
+<div id="divbutton">
+    <a class="botao b" href="index.html">Projetos em destaque</a>
+    <a class="botao b" href="desenvolvimento.html">Projetos em desenvolvimento</a>
+    <a class="botao b" href="finalizados.html">Projetos finalizados</a>
+</div>
+
+
