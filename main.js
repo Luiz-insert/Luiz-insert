@@ -1,16 +1,11 @@
-lert('Site em desenvolvimento, projetos e recursos como contraste e modo claro/escuro não estão finalizados')
+var alteraVersao = document.querySelector("#version").innerHTML = "v0.7_19/05/22_under development";
 
-var button_MudaCor = document.querySelector("#mudarCor");
 
-button_MudaCor.addEventListener('click', function (event) {
 
-  if (button_MudaCor.classList.contains('changeColor')) {
-    button_MudaCor.classList.remove('changeColor');
-  } else {
-    button_MudaCor.classList.add('changeColor');
-  }
 
-}, false);
+
+
+
 
 
 
