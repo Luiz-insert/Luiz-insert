@@ -1,5 +1,8 @@
 
 :root {
+    
+/*BASEMODE*/
+
     /*Cores genericas*/
     --cinzaClaro: #CBCFD3;
     --azulEscuro: #161B21;
@@ -10,6 +13,22 @@
     --githubColor: #6b737c4d;
     --whatsappColor: #01e6734d;
     --instagramColor: #ef58654d;
+
+/*DARKMODE*/
+
+    /*Cores genericas DARKMODE*/
+    --cinzaClaroDm: #617794;
+    --azulEscuroDm: #161B21;
+    --azulClaroDm:  #97b6f5;
+    --azulClaroTrDm: #171d2be8;
+    /*Cores botoes DARKMODE*/
+    --linkedinColorDm: rgba(10, 102, 194, 0.5);
+    --githubColorDm: rgba(163, 177, 194, 0.5);
+    --whatsappColorDm: rgba(1, 230, 115, 0.5);
+    --instagramColorDm: rgba(239, 88, 101, 0.5);
+
+
+
     /*Cores Diversos*/
     --versionColor: #00ff2a;
     
@@ -21,6 +40,20 @@ head {
     font-size: 0em;
 }
 
+::-webkit-scrollbar {
+    width: 1vh;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--azulClaro);
+    border-radius: 0em;
+}
+
+::-webkit-scrollbar-thumb {
+    background:var(--cinzaClaro);
+    border-radius: 0em;
+}
+
 body {
     background-color: var(--azulEscuro);
     color: var(--cinzaClaro);
@@ -28,11 +61,9 @@ body {
     font-weight:lighter;
     font-size:large;
 }
-
 header {
     background-color: var(--azulEscuro); 
 }
-
 
 #divNav {
     display: grid;
@@ -82,12 +113,14 @@ main {
     font-family: 'Inconsolata', monospace;
     padding-top: 0.7em;
     padding-bottom: 0.7em;
+    color: var(--cinzaClaro);
 }
 
 .faixa1 {    
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
+    color: var(--cinzaClaro);
 }
 
 .botao, 
@@ -96,6 +129,7 @@ main {
         background-color:var(--cinzaClaro);
         text-align: center;
         font-weight: 700;
+        font-family: monospace;
         justify-content: center;
         align-items: center;
         color: var(--azulClaro);
@@ -104,6 +138,14 @@ main {
         padding-top: 0.5em;
         padding-bottom: 0.5em;
 
+}
+
+#divAcess {
+    width: 100%;
+    display: grid;
+    justify-content: start;
+    text-align: center;
+    font-weight: 700;
 }
 
 .botao_destaque{
@@ -139,19 +181,18 @@ main {
 
 #divSpan {
     padding-bottom: 2em;
-    background: linear-gradient(var(--azulEscuro), var(--azulClaroTr));
 }
 
 .tableSpan {
     height: 100%;
-    width: 100%;  
+    width: 100%; 
     font-weight: 700;
 }
 
 .tdSpan, .tdSpan:visited {
     vertical-align: inherit;
     text-align: center; 
-    height: 5rem;
+    height: 5em;
     color: var(--azulClaro);
     text-decoration: none;
     transition: 0.3s;    
@@ -178,7 +219,6 @@ main {
     background-color: #53699475;
 }
 
-/*Estilização individual dos botoes do contato*/
 #linkedin :hover {
     display: grid;
     justify-content: center;
@@ -203,7 +243,6 @@ main {
     background-color: var(--instagramColor);
 }
 
-/*Estilização conjunta dos botoes do contato*/
 .rede {
     display: grid;
     justify-content: center;
@@ -228,7 +267,6 @@ footer {
     text-align: center;
 }
 
-/*Essa parte do codigo não é influenciada portanto segura*/
 #dados {
     display: flex;
     justify-content: center;
@@ -236,6 +274,7 @@ footer {
     font-size: 1em;
     margin-top: 0;
     margin-bottom: 0;
+    color: var(--cinzaClaro);
 }
 
 #version {
@@ -245,20 +284,52 @@ footer {
     justify-content: end;
 }
 
-
-
-
-/*Estilização da barra de rolagem*/
-::-webkit-scrollbar {
-    width: 1vh;
+.bttLightDark, 
+.bttLightDark:visited {
+        display: grid;
+        background-color:var(--cinzaClaro);
+        text-align: center;
+        font-weight: 700;
+        font-family: monospace;
+        justify-content: center;
+        align-items: center;
+        color: var(--azulClaro);
+        text-decoration: none;
+        transition: 0.3s;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        grid-template-columns: 1fr 1fr;
+        grid-column: 2;
+        grid-row: 1;     
+        width: auto;
+        grid-column-start: -3;
+        justify-self: end;
 }
 
-::-webkit-scrollbar-track {
-    background: var(--azulClaro);
-    border-radius: 0em;
+#bttl {
+    margin: 0;
+    outline: none;
+    box-shadow: 0 0 0 0;
+    border: 1;
+    padding: 0;
+    width: fit-content;
+    height: 32px;
+    justify-content: center;
+    transition: 0ms;
+    padding-left: 1em;
+    
+    
 }
 
-::-webkit-scrollbar-thumb {
-    background:var(--cinzaClaro);
-    border-radius: 0em;
+#labelBotao {
+    background: linear-gradient(90deg, #CBCFD3, #5983AF);
+    width: fit-content;
+    display: grid;
+    justify-self: start;
+    height: fit-content;
+    transition: 0ms;
 }
+
+
+
+
