@@ -18,7 +18,7 @@ time, mark, audio, video {
 	font: inherit;
 }
 td {
-	padding: 1px;
+	padding: 0px;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 

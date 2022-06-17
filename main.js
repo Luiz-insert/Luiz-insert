@@ -1,4 +1,11 @@
-var alteraVersao = document.querySelector("#version").innerHTML = "v0.7_19/05/22_under development";
+window.alert('Site em desenvolvimento, recursos e links podem não funcionar corretamente')
+
+
+
+
+
+
+var alteraVersao = document.querySelector("#version").innerHTML = "v0.7_17/06/22_under development";
 //Não alterar*
 
 

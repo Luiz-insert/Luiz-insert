@@ -71,7 +71,6 @@ header {
     height: 1em;
     margin-top: 0;
     margin-bottom: 0;
-    position: sticky;
     top: 0;
 }
 
@@ -99,6 +98,7 @@ header {
     color: var(--cinzaClaro);
     background-color:var(--azulEscuro);
     text-align: center;
+    padding-top: 0.3em;
 }
 
 main {
@@ -183,40 +183,39 @@ main {
     padding-bottom: 2em;
 }
 
-.tableSpan {
-    height: 100%;
-    width: 100%; 
-    font-weight: 700;
-}
-
 .tdSpan, .tdSpan:visited {
-    vertical-align: inherit;
     text-align: center; 
     height: 5em;
     color: var(--azulClaro);
     text-decoration: none;
-    transition: 0.3s;    
+    transition: 0.3s; 
 }
 
-.tdSpan :hover{
-    background-color: var(--azulEscuro);
-    color: var(--cinzaClaro);
+.a-link-projeto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.3s;
+    height: 100%;
+    color: var(--azulClaro);
+    border: rgba(255, 255, 255, 0) solid 1px;
+}
+.tdSpan :hover
+{
+    background-color: var(--azulClaro);
+    color: rgba(255, 255, 255, 0);
+    border: var(--cinzaClaro) solid 1px;
+    border-radius: 8px;
+    transition: 0.3s;
+    background-image: url(/Em\ desenvolvimento...\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
 }
 
 .tdIcon {
     background-color: var(--cinzaClaro);
-}
-
-.tdSpanAnima,
-.tdSpanAnima:visited {
-    color: var(--azulClaro);
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.tdSpanAnima:hover{  
-    color: var(--azulEscuro);
-    background-color: #53699475;
 }
 
 #linkedin :hover {
@@ -246,8 +245,19 @@ main {
 .rede {
     display: grid;
     justify-content: center;
-    transition: 0.5s;
-    line-height: 5.5em;
+    border-style: none;
+    border: #ffffff00 solid;
+    border-radius: 15%;
+}
+
+.rede:hover {
+    border: solid 1px;
+    border-top-color: var(--cinzaClaro);
+    border-bottom-color: var(--cinzaClaro);
+    border-left-color: var(--azulClaro);
+    border-right-color: var(--azulClaro);
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .icons,
@@ -271,7 +281,7 @@ footer {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 1em;
+    font-size: 12px;
     margin-top: 0;
     margin-bottom: 0;
     color: var(--cinzaClaro);
@@ -330,6 +340,10 @@ footer {
     transition: 0ms;
 }
 
-
-
-
+.aa {
+    text-align: center; 
+    height: 5em;
+    color: var(--azulClaro);
+    text-decoration: none;
+    transition: 0.3s; 
+}
