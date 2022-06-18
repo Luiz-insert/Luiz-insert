@@ -5,7 +5,7 @@ window.alert('Site em desenvolvimento, recursos e links podem não funcionar cor
 
 
 
-var alteraVersao = document.querySelector("#version").innerHTML = "v0.7_17/06/22_under development";
+var alteraVersao = document.querySelector("#version").innerHTML = "v0.8_17/06/22_under development";
 //Não alterar*
 
 
