@@ -215,7 +215,7 @@ main {
     border: var(--cinzaClaro) solid 1px;
     border-radius: 8px;
     transition: 0.3s;
-    background-image: url(../Em\ desenvolvimento.png);
+    background-image: url(../svg/dev.png);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
