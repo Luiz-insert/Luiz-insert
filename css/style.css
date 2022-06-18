@@ -191,6 +191,12 @@ main {
     transition: 0.3s; 
 }
 
+#tableSpan {
+    height: 100%;
+    width: 100%;  
+    font-weight: 700;
+}
+
 .a-link-projeto {
     display: flex;
     justify-content: center;
@@ -201,6 +207,7 @@ main {
     color: var(--azulClaro);
     border: rgba(255, 255, 255, 0) solid 1px;
 }
+
 .tdSpan :hover
 {
     background-color: var(--azulClaro);
@@ -208,7 +215,7 @@ main {
     border: var(--cinzaClaro) solid 1px;
     border-radius: 8px;
     transition: 0.3s;
-    background-image: url(/Em\ desenvolvimento...\ \(1\).png);
+    background-image: url(/Em\ desenvolvimento.png);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -248,6 +255,7 @@ main {
     border-style: none;
     border: #ffffff00 solid;
     border-radius: 15%;
+    transition: 0.5s;
 }
 
 .rede:hover {
@@ -277,7 +285,17 @@ footer {
     text-align: center;
 }
 
-#dados {
+#dados1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--cinzaClaro);
+}
+
+#dados2 {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -294,56 +312,4 @@ footer {
     justify-content: end;
 }
 
-.bttLightDark, 
-.bttLightDark:visited {
-        display: grid;
-        background-color:var(--cinzaClaro);
-        text-align: center;
-        font-weight: 700;
-        font-family: monospace;
-        justify-content: center;
-        align-items: center;
-        color: var(--azulClaro);
-        text-decoration: none;
-        transition: 0.3s;
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-        grid-template-columns: 1fr 1fr;
-        grid-column: 2;
-        grid-row: 1;     
-        width: auto;
-        grid-column-start: -3;
-        justify-self: end;
-}
 
-#bttl {
-    margin: 0;
-    outline: none;
-    box-shadow: 0 0 0 0;
-    border: 1;
-    padding: 0;
-    width: fit-content;
-    height: 32px;
-    justify-content: center;
-    transition: 0ms;
-    padding-left: 1em;
-    
-    
-}
-
-#labelBotao {
-    background: linear-gradient(90deg, #CBCFD3, #5983AF);
-    width: fit-content;
-    display: grid;
-    justify-self: start;
-    height: fit-content;
-    transition: 0ms;
-}
-
-.aa {
-    text-align: center; 
-    height: 5em;
-    color: var(--azulClaro);
-    text-decoration: none;
-    transition: 0.3s; 
-}

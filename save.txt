@@ -1,13 +1,20 @@
-<nav id="divnav">
-    <button class="bnav"> <p class="bnav">Contraste</p>     </button>
-    <button class="bnav"> <p class="bnav">Alternar Tema</p> </button>
-</nav>
+//remove o estilo claro e consequentemente o codigo em cascata le o 2°//
 
-<div id="divbutton">
-    <a class="botao b" href="index.html">Projetos em destaque</a>
-    <a class="botao b" href="desenvolvimento.html">Projetos em desenvolvimento</a>
-    <a class="botao b" href="finalizados.html">Projetos finalizados</a>
-</div>
+    var removeStyle = document.querySelector("#estilo");
+    
+    var botaoClaroEscuro = document.querySelector(".bttLightDark");
+    botaoClaroEscuro.addEventListener('click', updateButton);
 
+function updateButton() {
 
-alert('Site em desenvolvimento, projetos e recursos como contraste e modo claro/escuro não estão finalizados')
+  if (botaoClaroEscuro.value === 'Modo Claro') 
+  {  
+    botaoClaroEscuro.value = 'Modo Escuro';
+    removeStyle.href = "/css/style2.css"    
+  } 
+  else 
+  {
+    botaoClaroEscuro.value = 'Modo Claro';
+    removeStyle.href = "/css/style.css"
+  }
+}
