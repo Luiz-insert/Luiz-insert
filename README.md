@@ -7,8 +7,9 @@
 
 ### Status atual do portfólio:
 
-- ✅ ON-LINE. (18/06/2022) https://luiz-insert.github.io/Luiz-insert/
+- ✅ ON-LINE. (20/06/2022) https://luiz-insert.github.io/Luiz-insert/
 - ⚙ Direcionamento de links e algumas funcionalidades propositalmente "quebradas".
+- 🔧Atualmente criando estilos para dispositivos mobile max(360px);
 
 ### Informaçoes adicionais:
 
