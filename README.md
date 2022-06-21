@@ -1,0 +1,17 @@
+## 👨‍💻 Seja bem vindo ao repositorio a qual dedico meu portfólio 👨‍💻
+![Portfólio](https://user-images.githubusercontent.com/77738183/174460185-191e9bc5-8378-4884-97fd-cc827ec8cfd3.png)
+
+✨ Fico feliz com uma avaliação seja ela positiva ou não, toda e qualquer opnião é muito benefica. ✨
+
+💗 Toda e qualquer contribuição é super bem vinda. 💗
+
+### Status atual do portfólio:
+
+- ✅ ON-LINE. (18/06/2022) https://luiz-insert.github.io/Luiz-insert/
+- ⚙ Direcionamento de links e algumas funcionalidades propositalmente "quebradas".
+
+### Informaçoes adicionais:
+
+- 💻Tv Media queries (Funcional/Não otimizado).
+- 📺Desktop/laptop Media queries (Funcional/otimizado).
+- 📱 Mobile Media queries (Funcional/Não otimizado).
