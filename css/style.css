@@ -300,11 +300,10 @@ footer {
 }
 
 
-@media (max-width: 360px) {
 
-    body {
-        border: 1px solid var(--azulClaro);
-    }
+/*Small mobile 425px*/
+@media (max-width: 425px) {
+
     #titulo1 {
          font-size: 32px;
          font-weight: bold;
@@ -314,8 +313,9 @@ footer {
     .faixa1 {
         padding-top: 10px;
         padding-bottom: 10px;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 100;
+        font-family: Arial, Helvetica, sans-serif;
 
     }
     .botao, 
@@ -327,8 +327,8 @@ footer {
         align-items: center;
         color: var(--azulClaro);
         text-decoration: none;
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
+        padding-top: 0.7em;
+        padding-bottom: 0.7em;
 
     }
 
@@ -380,7 +380,6 @@ footer {
         padding-top: 1em;
         padding-bottom: 1em;
         color: var(--cinzaClaro);
-        border-bottom: var(--azulClaro) solid 2px;
         margin-bottom: 0;
         margin-top: 0;
     }
@@ -397,22 +396,20 @@ footer {
     }
 
     #divSpan {
-        padding-bottom: 0em;
+        padding-bottom: 2em;
     }
 
     #tableSpan {
         height: 100%;
         width: 100%;  
-        font-weight: 100;
-        border-bottom: var(--azulClaro) solid 2px;
-        border-top: var(--azulClaro) solid 2px;
+        font-weight: 600;
     }
 
     .tdSpan :hover
 {
     background-color:unset;
     color: var(--cinzaClaro);
-    border: var(--cinzaClaro) solid 1px;
+    border: rgba(0, 128, 0, 0) solid 0px;
     border-radius: 0px;
     transition: 0.0s;
     background-image: none;
@@ -446,3 +443,106 @@ footer {
     }
 
  }
+ /*Medium mobile/Tablet 768px*/
+@media (min-width: 426px) {
+
+    #titulo1 {
+        font-size: 42px;
+        font-weight: 400;
+        padding-bottom: 0.3em;
+    }
+
+    .faixa1 {
+        font-weight: 200;
+        padding-bottom: 1em;
+    }
+
+    #divSpan {
+        padding-bottom: 2em;
+    }
+
+    #tableSpan {
+        height: 100%;
+        width: 100%;  
+        font-weight: 600;
+    }
+
+    .tdSpan :hover
+{
+    background-color:unset;
+    color: var(--cinzaClaro);
+    border: rgba(0, 128, 0, 0) solid 0px;
+    border-radius: 0px;
+    transition: 0.0s;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.rede {
+
+    display: grid;
+    justify-content: center;
+    border-style: none;
+    border: #ffffff00 solid 0px;
+    border-radius: 0%;
+    transition: 0s;
+}
+
+.rede:hover {
+    border: solid 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+}
+/*Tablet/Small laptop 1024px*/
+@media (min-width: 769px) {
+
+    .tdSpan :hover
+{
+    background-color: var(--azulClaro);
+    color: rgba(255, 255, 255, 0);
+    border: var(--cinzaClaro) solid 1px;
+    border-radius: 8px;
+    transition: 0.3s;
+    background-image: url(../svg/dev.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+    .rede {
+        display: grid;
+        justify-content: center;
+        border-style: none;
+        border: #ffffff00 solid;
+        border-radius: 15%;
+        transition: 0.5s;
+    }
+    
+    .rede:hover {
+        border: solid 1px;
+        border-top-color: var(--cinzaClaro);
+        border-bottom-color: var(--cinzaClaro);
+        border-left-color: var(--azulClaro);
+        border-right-color: var(--azulClaro);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+/*Laptop fullhd our tv's*/
+@media (min-width: 1024px) {
+
+    #dados1{
+        font-size: 15px;
+    }
+    #dados2{
+        font-size: 13px;
+        width: 1000px;
+        padding-bottom: 1em;
+    }
+    #version {
+        justify-content: center;
+    }
+}
