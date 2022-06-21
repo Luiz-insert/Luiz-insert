@@ -18,3 +18,23 @@ function updateButton() {
     removeStyle.href = "/css/style.css"
   }
 }
+
+
+
+
+
+#divNav {
+    display: grid;
+    grid-template-columns: 80% 50%;
+    height: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    top: 0;
+}
+
+#navCab {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
