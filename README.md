@@ -7,12 +7,12 @@
 
 ### Status atual do portfólio:
 
-- ✅ ON-LINE. (20/06/2022) https://luiz-insert.github.io/Luiz-insert/
+- ✅ ON-LINE. (22/06/2022) https://luiz-insert.github.io/Luiz-insert/
 - ⚙ Direcionamento de links e algumas funcionalidades propositalmente "quebradas".
-- 🔧Atualmente criando estilos para dispositivos mobile max(360px);
+- 🎨Criação de estilos especificos voltados a diferentes telas concluido (21/06).
 
 ### Informaçoes adicionais:
 
-- 💻Tv Media queries (Funcional/Não otimizado).
+- 💻Tv Media queries (Funcional/otimizado).
 - 📺Desktop/laptop Media queries (Funcional/otimizado).
-- 📱 Mobile Media queries (Funcional/Não otimizado).
+- 📱 Mobile Media queries (Funcional/otimizado).
