@@ -140,7 +140,8 @@ main {
     grid-column: 1/3;
     grid-row: 1/2;        
     width: auto;
-    border-bottom: var(--azulEscuro) dotted 1px ;    
+    border-bottom: var(--azulEscuro) solid 1px ;
+    
 }
 
 .botao_progresso{
@@ -148,8 +149,9 @@ main {
     grid-column: 1/2;
     grid-row: 2/2;    
     width: auto;
-    
+
 }
+
 
 .botao_finalizados{
     
@@ -157,12 +159,11 @@ main {
     grid-column: 2/2;
     grid-row: 2/2;
     width: auto; 
+
         
 }
 
-.botao_destaque:hover,
-.botao_progresso:hover,
-.botao_finalizados:hover,
+.botao_progresso:hover, .botao_finalizados:hover,.botao_destaque:hover,
 .botao_todos:hover{
     color: var(--cinzaClaro);
     background-color: var(--azulEscuro);
@@ -171,6 +172,9 @@ main {
 
 #divSpan {
     padding-bottom: 2em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .tdSpan, .tdSpan:visited {
@@ -185,6 +189,8 @@ main {
     height: 100%;
     width: 100%;  
     font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .a-link-projeto {
@@ -291,6 +297,7 @@ textarea:focus::placeholder,input:focus::placeholder {
     font-weight: 700;
     font-family: monospace;
     color: var(--azulClaro);
+    cursor:pointer;
 
 }
 
@@ -337,7 +344,7 @@ textarea:focus::placeholder,input:focus::placeholder {
     justify-content: center;
     border-style: none;
     border: #ffffff00 solid;
-    border-radius: 15%;
+    border-radius: 0%;
     transition: 0.5s;
 }
 
@@ -366,6 +373,7 @@ footer {
     justify-content: center;
     background-color: var(--azulClaroTr);
     text-align: center;
+
 }
 
 #dados1 {
@@ -591,6 +599,10 @@ footer {
     margin-left: 0px;
     margin-right: 0px;
 }
+
+#name,#email,#tel,#msg {
+    width: 50%;
+}
 }
 /*Tablet/Small laptop 1024px*/
 @media (min-width: 769px) {
@@ -626,6 +638,33 @@ footer {
         margin-left: 10px;
         margin-right: 10px;
     }
+
+    #name,#email,#tel,#msg {
+        width: 40%;
+    }
+
+    .botao_destaque,.botao_todos {
+        width: 90%;
+        justify-self: center;
+    }
+
+    .botao_progresso {
+        width: 90%;
+        justify-self: end;
+    }
+
+    .botao_finalizados {
+        width: 90%;
+        justify-self: start;
+    }
+
+    #tableIcon {
+        width: 90%;
+        justify-self: center;
+    }
+    
+
+
 }
 /*Laptop fullhd our tv's*/
 @media (min-width: 1024px) {
@@ -640,5 +679,100 @@ footer {
     }
     #version {
         justify-content: center;
+    }
+
+    #name,#email,#tel,#msg {
+        width: 40%;
+    }
+
+    #divSpan {
+        padding-bottom: 2em;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .botao_destaque,.botao_todos {
+        width: 80%;
+        justify-self: center;
+    }
+
+    .botao_progresso {
+        width: 80%;
+        justify-self: end;
+    }
+
+    .botao_finalizados {
+        width: 80%;
+        justify-self: start;
+    }
+
+    #tableIcon {
+        width: 80%;
+        justify-self: center;
+    }
+}
+@media (min-width: 1440px) {
+    #name,#email,#tel,#msg {
+        width: 30%;
+    }
+
+    .botao_destaque,.botao_todos {
+        width: 75%;
+        justify-self: center;
+    }
+
+    .botao_progresso {
+        width: 75%;
+        justify-self: end;
+    }
+
+    .botao_finalizados {
+        width: 75%;
+        justify-self: start;
+    }
+
+    #tableIcon {
+        width: 75%;
+        justify-self: center;
+    }
+
+    #divSpan {
+        padding-bottom: 2em;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (min-width: 2000px) {
+    #name,#email,#tel,#msg {
+        width: 30%;
+    }
+
+    .botao_destaque,.botao_todos {
+        width: 60%;
+        justify-self: center;
+    }
+
+    .botao_progresso {
+        width: 60%;
+        justify-self: end;
+    }
+
+    .botao_finalizados {
+        width: 60%;
+        justify-self: start;
+    }
+
+    #tableIcon {
+        width: 60%;
+        justify-self: center;
+    }
+
+    #divSpan {
+        padding-bottom: 2em;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
