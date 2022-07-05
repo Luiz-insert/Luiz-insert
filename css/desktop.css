@@ -1,0 +1,62 @@
+/*Tablet/Small laptop 1024px*/
+@media (min-width: 769px) {
+
+    .tdSpan :hover
+{
+    background-color: var(--azulClaro);
+    color: rgba(255, 255, 255, 0);
+    border: var(--cinzaClaro) solid 1px;
+    border-radius: 3px;
+    transition: 0.3s;
+    background-image: url(../svg/dev.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+    .rede {
+        display: grid;
+        justify-content: center;
+        border-style: none;
+        border: #ffffff00 solid;
+        border-radius: 0%;
+        transition: 0.3s;
+    }
+    
+    .rede:hover {
+        border: solid 1px;
+        border-top-color: var(--cinzaClaro);
+        border-bottom-color: var(--cinzaClaro);
+        border-left-color: var(--azulClaro);
+        border-right-color: var(--azulClaro);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #name,#email,#tel,#msg {
+        width: 40%;
+    }
+
+    .botao_destaque,.botao_todos {
+        width: 90%;
+        justify-self: center;
+    }
+
+    .botao_progresso {
+        width: 90%;
+        justify-self: end;
+    }
+
+    .botao_finalizados {
+        width: 90%;
+        justify-self: start;
+    }
+
+    #tableIcon {
+        width: 90%;
+        justify-self: center;
+    }
+    
+
+
+}

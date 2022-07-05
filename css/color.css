@@ -1,0 +1,37 @@
+:root {
+    
+    /*BASEMODE*/
+    
+        /*Cores genericas*/
+        --cinzaClaro: #CBCFD3;
+        --azulEscuro: #161B21;
+        --azulClaro:  #536994;
+        --azulClaroTr: #33425fe8;
+        /*Cores botoes*/
+        --linkedinColor: #0a66c24d;
+        --githubColor: #6b737c4d;
+        --whatsappColor: #01e6734d;
+        --instagramColor: #ef58654d;
+    
+    /*DARKMODE*/
+    
+        /*Cores genericas DARKMODE*/
+        --cinzaClaroDm: #617794;
+        --azulEscuroDm: #161B21;
+        --azulClaroAlt:  #97b6f5;
+        --azulClaroTrDm: #171d2be8;
+        /*Cores botoes DARKMODE*/
+        --linkedinColorDm: rgba(10, 102, 194, 0.5);
+        --githubColorDm: rgba(163, 177, 194, 0.5);
+        --whatsappColorDm: rgba(1, 230, 115, 0.5);
+        --instagramColorDm: rgba(239, 88, 101, 0.5);
+    
+    
+    
+        /*Cores Diversos*/
+        --verdeflor: #00ff2a;
+        
+    
+    }
+    
+    
