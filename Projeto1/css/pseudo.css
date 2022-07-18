@@ -1,0 +1,52 @@
+
+
+.linkItem1:hover {
+    border-bottom: solid 5px var(--cor3);  
+    color: var(--cor3);
+    transition: 0.3s;
+    
+}
+#seguir:hover {
+    border: 4px double var(--cinzaClaro);
+    background-color: var(--cinzaEscuro);
+    color: var(--cinzaClaro);
+    cursor: pointer;
+    transition: 0.3s;
+}
+#profile:hover {
+    cursor: pointer;
+    transition: 0.3s;
+}
+.buttonProfile:hover {
+    cursor: pointer;
+}
+.buttonItem2:hover {
+    background-color: var(--cor3);
+    transition: 0.3s;
+}
+.divItem4:hover {
+    border-color: var(--cor3) ;
+    border-style: double;
+    transition: 0.3s;
+}
+.linkItem4:hover{
+    border: 5px double var(--cinzaEscuro);
+    background-color: var(--cor3);
+    color: var(--cinzaClaro);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.trMain:hover{
+    background-color: var(--cor3);
+    color: var(--cinzaEscuro);
+    cursor:default;
+}
+
+.pTitulo:hover,
+.pAlbum:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+

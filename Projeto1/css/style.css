@@ -1,0 +1,391 @@
+
+body {
+    overflow: hidden;
+}
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: var(--cor2);
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--cor3);
+    border: var(--cor2) 3px solid;
+}
+#grid-container {
+    display: grid;
+    background-color: var(--cinzaEscuro);
+    grid-template-areas:
+    'icone  cima cima cima cima'
+    'lateral  conteudo conteudo conteudo conteudo'
+    'lateral  conteudo conteudo conteudo conteudo'
+    'lateral  conteudo conteudo conteudo conteudo'
+    'lateral  conteudo conteudo conteudo conteudo'
+    'lateral  conteudo conteudo conteudo conteudo'
+    'lateral  conteudo conteudo conteudo conteudo'
+    'lateral  conteudo conteudo conteudo conteudo'
+    'lateral  conteudo conteudo conteudo conteudo'
+    'lateral  conteudo conteudo conteudo conteudo'
+    'lateral  conteudo conteudo conteudo conteudo'
+    'lateral  conteudo conteudo conteudo conteudo'
+    'lateral  conteudo conteudo conteudo conteudo'
+    'lateral  conteudo conteudo conteudo conteudo'
+    'media media media media media';
+}
+
+/* Item 0 - Icone*/
+.item0 {
+    display: flex;
+    grid-area: icone;
+
+}
+.divItem0 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Major Mono Display' , monospace;
+    align-items: center;
+    color: var(--cinzaClaro);
+    width: 100%;
+    background-color: var(--cor2);
+    height: 15vh;
+    justify-content: center;
+}
+
+/* Item 1 - Lateral esquerdo*/
+.item1 { 
+    display: flex;
+    grid-area: lateral;
+    height: auto;
+    background-color: var(--cor2);
+    width: auto;
+    
+}
+.divItem1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+    
+}
+.linkItem1 {
+    display: flex;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: var(--cinzaClaro);
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Major Mono Display' , monospace;
+    align-items: center;
+    border-bottom: 5px double var(--cor1) ;
+    transition: 0.3s;
+    
+}
+.labelIcones {
+    cursor: pointer;
+}
+#iconesItem1,#iconesItem2,#iconesItem3 {
+    display: flex;
+    width: 32px;
+    padding-right: 0.3em;
+    padding-left: 0.3em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    margin-right: 1em;
+    cursor: pointer;
+    background-color: var(--cinzaClaro);
+    border-radius: 0%;
+    border: 1px solid var(--cor1);
+}
+
+/* Item 2 - Superior*/
+.item2 { 
+    display: flex;
+    height: 15vh;
+    grid-area: cima;
+    background:linear-gradient(45deg, var(--cor2) 10%, var(--cor1) 100%); 
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+}
+.divItem2 {
+    display: flex;
+    background-image: url(./svg/Play.svg);
+    cursor: pointer;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 64px;
+    height: 64px;
+}
+#tituloItem2 {
+    font-family: 'Righteous', cursive;
+    color: var(--cinzaClaro);
+    font-size: 32px;
+}
+.buttonItem2 {
+    display: flex;
+    background-color: var(--cinzaClaro);
+    border: 1px solid var(--cor1);
+    margin-left: 1px;
+    margin-right: 1px;
+    border-style: solid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 40px;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    cursor: pointer; 
+    transition: 0.3s;  
+}
+#profile {
+    display: flex;
+    background-color: var(--cinzaEscuro);
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    margin-left: auto;
+    margin-right: 4em;
+    transition: 0.3s;
+}
+.imgProfile {
+    display: flex;
+    color: var(--cinzaEscuro);
+    background-image: url(../svg/transferir.jfif);
+    border-radius: 2em;
+    background-size: cover;
+    border: 2px solid;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+}
+.buttonProfile {
+    background-color: var(--cinzaEscuro);
+    color: var(--cinzaClaro);
+    border: 0px;
+    font-family: 'Righteous', cursive;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius:2em;
+}
+
+/* Item 3 - Conteudo principal*/
+.item3 { 
+    grid-area: conteudo;
+    display: flex;
+    background-color: var(--cor4);
+    background-size:contain; 
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: auto;
+}
+.divItem3 {
+    display: flex;
+    margin: 10px;
+    background-color: white;
+    flex-wrap: wrap;
+    width: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;  
+}
+#imgConteudo {
+    display: flex;
+    height: 300px;
+    min-width: 300px;
+    width: 300px;
+    background-image: url(#);
+    background-color: var(--cinzaEscuro);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: var(--cor1) 5px solid;
+}
+.infoConteudo {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: calc(100% -  310px);
+    font-size: 32px;
+    font-family: 'Righteous', cursive;
+}
+#infoMusica {
+    background-color: var(--cor1);
+    color: var(--cinzaEscuro);
+    text-align: center;
+    font-size: 64px;
+    padding-bottom: 8px;
+}
+#infoAlbum {
+    background-color: var(--cor2);
+    color: var(--cinzaClaro);
+    text-align: center;
+    padding-bottom: 8px;
+}
+#infoOuvintes {
+    display: flex;
+    color: var(--cinzaClaro);
+    background-color: var(--cinzaEscuro);
+    text-align: center;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: bold;
+    justify-content: center;
+
+}
+#infoSubConteudo {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cinzaClaro);
+    width: auto;
+    height: 100%;
+    padding-top: 16px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+#infAutor {
+    font-size: 48px;
+    font-family: 'Major Mono Display', monospace;
+    border-bottom:dashed 5px;
+    color: var(--cinzaEscuro);
+}
+#infGravadora1 {
+    padding-top: 1em;
+    font-size: 12px;
+    font-family: monospace;
+    color: var(--cinzaEscuro);
+}
+
+#infGravadora2 {
+    padding-top: 0em;
+    font-size: 12px;
+    font-family: monospace;
+    color: var(--cinzaEscuro);
+}
+
+#infData {
+    padding-top: 0.5em;
+    font-size: 12px;
+    font-family: monospace;
+    color: var(--cinzaEscuro);
+}
+#seguir {
+    background-color: var(--cinzaClaro);
+    color: var(--cinzaEscuro);
+    border:  5px solid;
+    margin-top: 1em;
+    height: 40px;
+    width: 80px;
+    font-family: 'Righteous', cursive;
+    transition: 0.3s;
+}
+.listaConteudo {
+    display: flex;
+    background-color: var(--cor4);
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    margin: 32px;
+}
+.tabbleConteudo {
+    font-family: 'Righteous', cursive;
+    height: 1em;
+    width: 100%;
+}
+.tdThead {
+    background-color: var(--cor2);
+    color: var(--cinzaClaro);
+    font-size:24px;
+    font-weight: lighter;
+    padding: 4px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.pId,
+.pTitulo
+,.pAlbum,
+.pDuracao {
+    display: flex;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+}
+
+.tdMain {
+
+    margin-left: 1em;
+    font-size: 16px;
+    border: 1px solid var(--cor1);
+}
+/* Item 4 - Controlador do player*/
+.item4 { 
+    display: flex;
+    width: 100%;
+    bottom: 0px;
+    grid-area: media;
+    height: 10vh;
+    background-color: var(--cor1);
+}
+.divItem4 {
+    display: flex;
+    background-color: var(--cinzaClaro);
+    border-top: var(--cor1) 5px solid;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.linkItem4 {
+    background-color: var(--cinzaClaro);
+    color: var(--cinzaEscuro);
+    border:  5px solid;
+    margin-top: 1em;
+    height: 40px;
+    width: 80px;
+    font-family: 'Righteous', cursive;
+    transition: 0.3s;
+}
+
+#imgItem4-1 {
+    background-color: transparent;
+    width: 28px;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../svg/Back.svg);
+    mix-blend-mode:hard-light;
+    
+}
+#imgItem4-2 {
+    background-color: transparent;
+    width: 28px;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../svg/Play.svg);
+    mix-blend-mode:hard-light;
+}
+#imgItem4-3 {
+    background-color: transparent;
+    width: 28px;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../svg/Skip.svg);
+    mix-blend-mode:hard-light;
+}
+#divBarra {
+    width: 50px;
+    height: 50px;
+}
+#iconesItem11,#iconesItem22,#iconesItem33 {
+    width: 32px;
+}
+
+

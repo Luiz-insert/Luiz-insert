@@ -8,9 +8,9 @@
     border: var(--cinzaClaro) solid 1px;
     border-radius: 3px;
     transition: 0.3s;
-    background-image: url(../svg/dev.png);
+    background-image: url(../svg/SAFEZONE.png);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:contain;
     background-position: center;
 }
 
