@@ -6,10 +6,13 @@
 💗 Toda e qualquer contribuição é super bem vinda. 💗
 
 ### Status atual do portfólio:
+### 🛠  Reestilização estrutural e simplificação do codigo estão sendo desenvolvidos, atualmente o site se encontra incompleto.
 
-- ✅ ON-LINE. (22/06/2022) https://luiz-insert.github.io/Luiz-insert/
 - ⚙ Direcionamento de links e algumas funcionalidades propositalmente "quebradas".
-- 🎨Criação de estilos especificos voltados a diferentes telas concluido (21/06).
+
+- ✅ ON-LINE. (03/08/2022) https://luiz-insert.github.io/Luiz-insert/ 
+
+- 🎨Criação de estilos especificos voltados a diferentes telas concluido (20/06).
 
 ### Informaçoes adicionais:
 
