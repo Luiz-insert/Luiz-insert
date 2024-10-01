@@ -1,10 +1,10 @@
 <h2 align="left">
-  👋Hi! I'm Luiz Gusttavo, a full-cycle web developer. 
+  👋Hi! I'm Luiz Gusttavo, a full-stack web developer. 
 </h2>
 
 ###
 
-<h3 align="left">👨‍💻I'm 20 years old, Brazilian, a mechatronics technician, and currently pursuing a degree in Computer Engineering.</h3>
+<h3 align="left">👨‍💻I'm 20 years old, Brazilian, a mechatronics technician, and currently pursuing a degree in ADS.</h3>
 
 ###
 
