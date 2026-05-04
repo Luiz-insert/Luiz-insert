@@ -4,7 +4,7 @@
 
 ###
 
-<h3 align="left">👨‍💻I'm 21 years old, Brazilian, a mechatronics technician, and currently pursuing a degree in ADS.</h3>
+<h3 align="left">👨‍💻I'm 22 years old, Brazilian, a mechatronics technician, and currently pursuing a degree in ADS.</h3>
 
 ###
 
