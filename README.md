@@ -1,63 +1,69 @@
-<h2 align="left">👋 Olá, sou o Luiz Gusttavo!</h2>
-<p align="left">
-  <strong>Full-Stack Developer</strong> focado em soluções web escaláveis, engenharia de dados e automação/RPA.
-  <br />
-  Graduando em Análise e Desenvolvimento de Sistemas (FIAP) • Técnico em Mecatrônica.
-</p>
+<div align="center">
 
-<!-- Stats -->
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Luiz-insert&hide_title=false&hide_rank=false&show_icons=false&include_all_commits=true&count_private=true&disable_animations=false&theme=solarized-light&locale=en&hide_border=false" height="145" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Luiz-insert&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=solarized-light&hide_border=false" height="145" alt="languages graph" />
+# Luiz Gusttavo
+### Full-Stack Developer & Data Automation Engineer
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=E6EDF3&center=true&vCenter=true&width=550&lines=Full-Stack+Web+Solutions+(Next.js+%7C+Node.js);Data+Pipelines+%26+Corporate+RPA+(Python+%7C+C%23);Cloud+Architecture+%26+Micro-services+(AWS+%7C+Docker);Telemetry+Ingestion+%26+Distributed+Systems" alt="Typing SVG" />
+</a>
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-161b22?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luiz-gusttavo-2907992a7/)
+[![Email](https://img.shields.io/badge/Email-161b22?style=flat-square&logo=gmail&logoColor=white)](mailto:Lgusttavo29@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-161b22?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/5531999036769)
+
 </div>
 
-<br />
+---
 
-### 🛠️ Tecnologias & Habilidades
+### 💻 Stack Técnica & Ferramentas
 
-**Full Stack & Frameworks**
-<div align="left">
-  <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=for-the-badge" height="28" alt="Next.js" />
-  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge" height="28" alt="React" />
-  <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=for-the-badge" height="28" alt="Node.js" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=for-the-badge" height="28" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=black&style=for-the-badge" height="28" alt="Tailwind CSS" />
-</div>
-
-**Linguagens & Automação**
-<div align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" height="28" alt="Python" />
-  <img src="https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white&style=for-the-badge" height="28" alt="C#" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" height="28" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" height="28" alt="TypeScript" />
-</div>
-
-**Cloud, DevOps & Dados**
-<div align="left">
-  <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?logo=amazonaws&logoColor=white&style=for-the-badge" height="28" alt="AWS" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge" height="28" alt="Docker" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=for-the-badge" height="28" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge" height="28" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white&style=for-the-badge" height="28" alt="GitHub Actions" />
-</div>
-
-<br />
-
-### 🚀 Principais Projetos
-- 🔹 **[AutoSegment](https://interface.coddara.com/)** — Orquestrador assíncrono multi-tenant em nuvem para automações corporativas e gerenciamento remoto de tarefas.
-- 🔹 **[Coddara Analytics](https://analytics.coddara.com/dashboard)** — Plataforma analítica de monitoramento de comportamento e jornada de usuários em tempo real via telemetria client-side.
-
-<br />
-
-### 📬 Conecte-se comigo
-<div align="left">
-  <a href="https://www.linkedin.com/in/luiz-gusttavo-2907992a7/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge" height="28" alt="LinkedIn" />
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,fastapi,python,cs,ts,js,postgres,mongodb,aws,docker,githubactions,tailwind&theme=dark" />
   </a>
-  <a href="https://wa.me/5531999036769" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?logo=whatsapp&logoColor=white&style=for-the-badge" height="28" alt="WhatsApp" />
-  </a>
-  <a href="mailto:Lgusttavo29@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white&style=for-the-badge" height="28" alt="Gmail" />
-  </a>
+</div>
+
+---
+
+### 📊 Áreas de Atuação & Métricas
+
+| Especialidade | Foco Arquitetural | Tecnologias Chave |
+| :--- | :--- | :--- |
+| **Full-Stack End-to-End** | WebApps multi-tenant, APIs RESTful e interfaces reativas | Next.js, React, Node.js, FastAPI |
+| **Engenharia de Dados & RPA** | Ingestão de telemetria, rotinas batch assíncronas e OCR | Python, C#, Webhooks, Processamento Server-Side |
+| **DevOps & Cloud** | Conteinerização, automação de deploys e observabilidade | Docker, AWS, GitHub Actions |
+
+---
+
+### 🚀 Produtos & Arquiteturas em Produção
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>⚡ <a href="https://interface.coddara.com/">AutoSegment</a></h4>
+      <p>Orquestrador assíncrono em nuvem para automação corporativa com isolamento nativo por tenant.</p>
+      <ul>
+        <li>Gerenciamento do ciclo de vida de tarefas remotas em tempo real.</li>
+        <li>Execução distribuída em instâncias de servidores dedicados.</li>
+      </ul>
+      <sub><code>Next.js</code> • <code>Node.js</code> • <code>FastAPI</code> • <code>Docker</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <h4>📈 <a href="https://analytics.coddara.com/dashboard">Coddara Analytics</a></h4>
+      <p>Plataforma de telemetria e análise de jornada do usuário baseada em injeção de script leve.</p>
+      <ul>
+        <li>Coleta assíncrona de performance e fluxos de navegação.</li>
+        <li>Dashboards customizados para conversão e estabilidade.</li>
+      </ul>
+      <sub><code>Client-side Telemetry</code> • <code>Webhooks</code> • <code>React</code> • <code>PostgreSQL</code></sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+<div align="center">
+  <sub>Desenvolvido com foco em código limpo, arquitetura escalável e entregas de valor corporativo.</sub>
 </div>
