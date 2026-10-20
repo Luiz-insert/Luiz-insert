@@ -1,72 +1,63 @@
-<h2 align="left">
-  👋Hi! I'm Luiz Gusttavo, a full-stack web developer. 
-</h2>
+<h2 align="left">👋 Olá, sou o Luiz Gusttavo!</h2>
+<p align="left">
+  <strong>Full-Stack Developer</strong> focado em soluções web escaláveis, engenharia de dados e automação/RPA.
+  <br />
+  Graduando em Análise e Desenvolvimento de Sistemas (FIAP) • Técnico em Mecatrônica.
+</p>
 
-###
-
-<h3 align="left">👨‍💻I'm 22 years old, Brazilian, a mechatronics technician, and currently pursuing a degree in ADS.</h3>
-
-###
-
-<!-- GithubStats -->
+<!-- Stats -->
 <div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Luiz-insert&hide_title=false&hide_rank=false&show_icons=false&include_all_commits=true&count_private=true&disable_animations=false&theme=solarized-light&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Luiz-insert&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=solarized-light&hide_border=false&order=2" height="150" alt="languages graph"  />
-  
-</div>
-<div>
-  
+  <img src="https://github-readme-stats.vercel.app/api?username=Luiz-insert&hide_title=false&hide_rank=false&show_icons=false&include_all_commits=true&count_private=true&disable_animations=false&theme=solarized-light&locale=en&hide_border=false" height="145" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Luiz-insert&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=solarized-light&hide_border=false" height="145" alt="languages graph" />
 </div>
 
-###
-<div>
-</div>
+<br />
 
-###
+### 🛠️ Tecnologias & Habilidades
 
-<h3 align="left">🔥Skills and tools...</h3>
-
-###
-
+**Full Stack & Frameworks**
 <div align="left">
-  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge" height="28" alt="react logo"  />
-  <img width="0" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" height="28" alt="javascript logo"  />
-  <img width="0" />
-  <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=for-the-badge" height="28" alt="nodejs logo"  />
-  <img width="0" />
-  <img src="https://img.shields.io/badge/Express-000000?logo=express&logoColor=white&style=for-the-badge" height="28" alt="express logo"  />
-  <img width="0" />
-  <img src="https://img.shields.io/badge/Electron-47848F?logo=electron&logoColor=white&style=for-the-badge" height="28" alt="electron logo"  />
-  <img width="0" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge" height="28" alt="html5 logo"  />
-  <img width="0" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge" height="28" alt="css3 logo"  />
-  <img width="0" />
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" height="28" alt="python logo"  />
-  <img width="0" />
-  <img src="https://img.shields.io/badge/Selenium-43B02A?logo=selenium&logoColor=black&style=for-the-badge" height="28" alt="selenium logo"  />
-  <img width="0" />
-  <img src="https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white&style=for-the-badge" height="28" alt="flask logo"  />
-  <img width="0" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white&style=for-the-badge" height="28" alt="figma logo"  />
-  <img width="0" />
-  <img src="https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=black&style=for-the-badge" height="28" alt="sass logo"  />
-  <img width="0" />
-  <img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?logo=tailwindcss&logoColor=black&style=for-the-badge" height="28" alt="tailwindcss logo"  />
-  <img width="0" />
-  <img src="https://img.shields.io/badge/Amazon AWS-232F3E?logo=amazonaws&logoColor=white&style=for-the-badge" height="28" alt="amazonwebservices logo"  />
-  <img width="0" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge" height="28" alt="mongodb logo"  />
+  <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=for-the-badge" height="28" alt="Next.js" />
+  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge" height="28" alt="React" />
+  <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=for-the-badge" height="28" alt="Node.js" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=for-the-badge" height="28" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=black&style=for-the-badge" height="28" alt="Tailwind CSS" />
 </div>
 
-<h3>💫Media</h3>
+**Linguagens & Automação**
 <div align="left">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="28" alt="Gmail logo" >
-  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" height="28" alt="WhatsApp logo" href="https://wa.me/qr/MNYM7J3W3KSRL1" target="_blank" >
-  <img src="https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white&style=for-the-badge" height="28" alt="instagram logo" href="https://www.instagram.com/luiz_gusttav0o/" target="_blank" />
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge" height="28" alt="linkedin logo" href="https://www.linkedin.com/in/luiz-gusttavo-2907992a7/" target="_blank"  />
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" height="28" alt="Python" />
+  <img src="https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white&style=for-the-badge" height="28" alt="C#" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" height="28" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" height="28" alt="TypeScript" />
 </div>
 
+**Cloud, DevOps & Dados**
+<div align="left">
+  <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?logo=amazonaws&logoColor=white&style=for-the-badge" height="28" alt="AWS" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge" height="28" alt="Docker" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=for-the-badge" height="28" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge" height="28" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white&style=for-the-badge" height="28" alt="GitHub Actions" />
+</div>
 
-###
+<br />
+
+### 🚀 Principais Projetos
+- 🔹 **[AutoSegment](https://interface.coddara.com/)** — Orquestrador assíncrono multi-tenant em nuvem para automações corporativas e gerenciamento remoto de tarefas.
+- 🔹 **[Coddara Analytics](https://analytics.coddara.com/dashboard)** — Plataforma analítica de monitoramento de comportamento e jornada de usuários em tempo real via telemetria client-side.
+
+<br />
+
+### 📬 Conecte-se comigo
+<div align="left">
+  <a href="https://www.linkedin.com/in/luiz-gusttavo-2907992a7/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge" height="28" alt="LinkedIn" />
+  </a>
+  <a href="https://wa.me/5531999036769" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?logo=whatsapp&logoColor=white&style=for-the-badge" height="28" alt="WhatsApp" />
+  </a>
+  <a href="mailto:Lgusttavo29@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white&style=for-the-badge" height="28" alt="Gmail" />
+  </a>
+</div>
