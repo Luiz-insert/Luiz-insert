@@ -42,7 +42,13 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>⚡ <a href="https://interface.coddara.com/">AutoSegment</a></h4>
+      <h4>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/autosegment-dark.svg">
+          <img src="assets/autosegment-light.svg" width="18" height="18" alt="">
+        </picture>
+        <a href="https://interface.coddara.com/">AutoSegment</a>
+      </h4>
       <p>Orquestrador assíncrono em nuvem para automação corporativa com isolamento nativo por tenant.</p>
       <ul>
         <li>Gerenciamento do ciclo de vida de tarefas remotas em tempo real.</li>
@@ -51,7 +57,13 @@
       <sub><code>Next.js</code> • <code>Node.js</code> • <code>FastAPI</code> • <code>Docker</code></sub>
     </td>
     <td width="50%" valign="top">
-      <h4>📈 <a href="https://analytics.coddara.com/dashboard">Coddara Analytics</a></h4>
+      <h4>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/coddara-analytics-dark.svg">
+          <img src="assets/coddara-analytics-light.svg" width="18" height="18" alt="">
+        </picture>
+        <a href="https://analytics.coddara.com/dashboard">Coddara Analytics</a>
+      </h4>
       <p>Plataforma de telemetria e análise de jornada do usuário baseada em injeção de script leve.</p>
       <ul>
         <li>Coleta assíncrona de performance e fluxos de navegação.</li>
